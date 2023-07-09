@@ -1,13 +1,25 @@
 {
-  "name": "simple-ui",
-  "private": true,
-  "version": "0.0.0",
+  "name": "kady-simple-ui",
+  "author": {
+    "name": "kady",
+    "email": "854626342@qq.com"
+  },
+  "description": "一个简单的react组件库",
+  "keywords": [
+    "react", "ui"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hellokady/simple-ui.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hellokady/simple-ui/issues"
+  },
+  "private": false,
+  "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "dev": "vite",
     "build": "vite build && tsc --project tsconfig.build.json",
-    "lint": "eslint src --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
     "preview-storybook": "npx http-server storybook-static"
